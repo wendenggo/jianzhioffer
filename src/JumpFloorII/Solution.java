@@ -24,7 +24,7 @@ public class Solution {
         for (int i =2;i<=target-1;i++){
             result[i]+=ints[i-1]+1+result[i-1];
         }
-        return result[target-2];//
+        return result[target-2];
     }
 
     public int JumpFloorIII(int target) {
