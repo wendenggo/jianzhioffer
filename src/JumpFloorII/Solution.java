@@ -12,19 +12,11 @@ public class Solution {
         if(target==0){
             return 0;
         }
-        int[] ints = new int[target];
-        ints[0] = 1;
-        ints[1] = 2;
-        for (int i = 2;i<target;i++){
-            ints[i] = ints[i-1]+ints[i-2];
+        int result = 1;
+        for(target = target-1;target>0;target--){
+            result = result*2;
         }
-        int result[] = new int[target];
-        result[0] = 1;
-        result[1] = 2;
-        for (int i =2;i<=target-1;i++){
-            result[i]+=ints[i-1]+1+result[i-1];
-        }
-        return result[target-2];
+        return result;
     }
 
     public int JumpFloorIII(int target) {
