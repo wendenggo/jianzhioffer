@@ -1,7 +1,7 @@
 package Jianzhi4;
 
 public class Solution {
-    public  void run(String[] args) {
+   /* public  void run(String[] args) {
         int[] pre = {1,2,4,7,3,5,6,8};
         int[] in = {4,7,2,1,5,3,8,6};
         Solution solution = new Solution();
@@ -18,7 +18,7 @@ public class Solution {
                 }
             }
         }
-    }
+    }*/
 
 
 
